@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+html {
+    min-height: 100%;
+    background-color:#262c3a;
+}
+
+
+body {
+    background-color:#262c3a;
+    color:#925a59;
+    background: radial-gradient( 
+        ellipse at center,
+        #ffff 0%,
+        #dff8ff 15%,
+        #8bbbd1 25%,
+        #315b7a 30%,
+        #262c3a 40%,
+        #0A0C0F 100%
+    );
+    font-family: 'Courier New', Courier, monospace;
+    min-height:100vh;
+    margin:0;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+
+}
+
+/*Main heading*/
+
+.hero {
+    position: relative;
+    height:100vh;
+}
+
+.hero-title {
+    color:#315b7a;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24rem;
+    font-weight: bold;
+    text-align:center;
+    white-space: nowrap;
+    font-family: 'Anton', sans-serif;
+    z-index: 1;
+}
+
+.tony-image {
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 700px;
+    height: auto;
+
+    z-index: 2;
+
+
+}
+
+
+.faded-heading {
+    color:#315b7a;
+    opacity: 0.3;
+    top: 1%;
+    position:absolute;
+    left: 0%;
+    text-align: justify;
+}
+
+.faded2-heading {
+    color:#315b7a;
+    opacity: 0.3;
+    top: 90%;
+    position:absolute;
+    left: 0%;
+    text-align:justify;
+}
+
+
+/*The head with second headings*/
+head h2 {
+    color:#925a59;
+    font-family: sans-serif;
+    text-align:center;
+
+}
+main {
+    font-family: sans-serif;
+    text-align:left;
+    align-content: 12px;
+
+}
+/*This is the second heading in the main*/
+main h2{
+    color:black
+}
