@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 html {
-    min-height: 100%;
+    min-height: 800%;
     background-color:#262c3a;
 }
 
@@ -18,12 +18,33 @@ body {
         #0A0C0F 100%
     );
     font-family: 'Courier New', Courier, monospace;
-    min-height:100vh;
+    min-height:110vh;
     margin:0;
     background-repeat: no-repeat;
     display:flex;
     flex-direction:column;
+    font-family:monospace;
 
+
+}
+
+.tony-self {
+    position: absolute;
+    left: 5%;
+    top: 120%;
+    height:auto;
+    width: 300px;
+    border-radius: 30px;
+    border-color:#315b7a;
+    border-style:solid;
+}
+
+.about-tony {
+    position: absolute;
+    left: 25%;
+    top:120%;
+    font-size:1.24rem;
+    color:#315b7a;
 }
 
 /*Main heading*/
@@ -57,8 +78,6 @@ body {
     height: auto;
 
     z-index: 2;
-
-
 }
 
 
@@ -69,6 +88,7 @@ body {
     position:absolute;
     left: 0%;
     text-align: justify;
+
 }
 
 .faded2-heading {
@@ -98,3 +118,204 @@ main {
 main h2{
     color:black
 }
+
+/*Tony's Impact in the Tech World*/
+
+.build-image {
+    position: absolute;
+    height:auto;
+    width: 600px;
+    left: 35%;
+    top: 200%;
+    border-radius: 30px;
+    border-color:#8bbbd1;
+    border-style:solid;
+    transform: rotate(270deg);
+}
+
+.impact-title {
+    position: absolute;
+    left:13%;
+    top: 202%;
+    font-size:4rem;
+    color:#8bbbd1;
+}
+
+.tony-impact {
+    position: absolute;
+    left: 13%;
+    top: 295%;
+    font-size:1.24rem;
+    color:#8bbbd1;
+}
+
+/*About Jarvis*/
+
+.jarvis-title {
+    position: absolute;
+    left:36%;
+    top:340%;
+    font-size:4rem;
+    color:#8bbbd1
+}
+
+.jarvis-image {
+    position: absolute; 
+    left: 35%;
+    top: 360%;
+    height:auto;
+    width: 500px;
+    border-radius: 30px;
+    border-color:#8bbbd1;
+    border-style:solid;
+}
+
+.jarvis-text {
+    position: absolute;
+    left: 13%;
+    top: 420%;
+    font-size: 1.24rem;
+    color:#8bbbd1;
+}
+
+/*About Tony's suit*/
+
+.suit-title {
+    position: absolute;
+    left:36%;
+    top: 475%;
+    font-size:4rem;
+    color:#3A2926;
+}
+
+.suit-image {
+    position: absolute;
+    left: 38%;
+    top: 477%;
+    transform:rotate(630deg);
+    height:auto;
+    width: 500px;
+    border-radius: 30px;
+    border-color: #8bbbd1;
+    border-style:solid;
+}  
+
+.suit-text {
+    position: absolute;
+    left:11%;
+    top: 563%;
+    font-size: 1.24rem;
+    color:#8bbbd1;
+}
+
+
+
+
+/*Tony's keyboard*/
+
+.keyboard-title {
+    position: absolute;
+    left:2%;
+    top: 630%;
+    font-size: 4rem;
+    color:#8bbbd1;
+}
+
+.keyboard-image {
+    position: absolute;
+    left: 2%;
+    top: 650%;
+    height:auto;
+    width: 500px;
+    border-radius: 30px;
+    border-color:#8bbbd1;
+    border-style:solid;
+}
+
+.keyboard-text {
+    position: absolute;
+    left: 30%;
+    top: 660%;
+    font-size: 1.24rem;
+    color:#8bbbd1;
+}
+
+/*Tonys arc reactor*/
+
+.arc-title {
+    position: absolute;
+    right: 1%;
+    top: 677%;
+    font-size: 4rem;
+    color:#8bbbd1;
+}
+
+.arc-image {
+    position: absolute;
+    right: 2%;
+    top: 694%;
+    height:auto;
+    width: 500px;
+    border-radius: 30px;
+    border-color:#8bbbd1;
+    border-style:solid;
+}
+
+.arc-text {
+    position: absolute;
+    left: 2%;
+    top: 714%;
+    font-size: 1.24rem;
+    color:#8bbbd1;
+}
+
+/*About Tony's Glasses*/
+
+.glasses-title {
+    position: absolute;
+    left: 3%;
+    top: 747%;
+    font-size: 4rem;
+    color:#8bbbd1
+}
+
+.glasses-image {
+    height:auto;
+    width: 400px;
+    border-radius: 30px;
+    border-color:#8bbbd1;
+    border-style:solid;
+    position: absolute;
+    left: 3%;
+    top: 766%;
+}
+
+.glasses-text {
+    position: absolute;
+    left: 28%;
+    top: 775%;
+    font-size: 1.24rem;
+    color:#8bbbd1;
+    
+}
+
+/*Overview about Tony Stark*/
+
+.overview-title {
+    position: absolute;
+    left: 3%;
+    top: 810%;
+    font-size: 4rem;
+    color:#8bbbd1;
+
+}
+
+.overview-text {
+    position: absolute;
+    left: 3%;
+    top: 835%;
+    font-size: 1.24rem;
+    color:#8bbbd1;
+}
+
+
